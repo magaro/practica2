@@ -1,0 +1,46 @@
+.cabecera {
+    position: top: 2%;
+    left: 20%;
+    width: 93%;
+    font-size: 150%;
+    text-align: center;
+    background-image: url(../img/water-fizzle.jpg);
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-style: italic;
+    }
+
+#indice {
+    position: absolute; 
+    top: 13%;
+    left: 2%;
+    width: 25%; 
+    height: 75%;
+    background-image: url(../img/paulklee.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.contenido { 
+    position: absolute; 
+    background-image: url(..//img/water.jpg);
+    top: 13%;
+    left: 30%;
+    width: 65%;
+    height: 75%; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(173, 238, 198);
+}
+
+#imagen {
+    float: right; 
+}
+
+#pie {
+position: absolute; top: 89%;
+left: 30%;
+height: 10%; 
+width: 65%;
+background-image: url(../img/mondrian.jpg);
+}
+
+#pie, .contenido, #indice,.cabecera {border-style:solid; border-width:2px; border-color:#0cdeed}
